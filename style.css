@@ -1,11 +1,11 @@
 .avatar {
     border-radius: 50%;
     height: 100px;
-    float:right;
+    float: right;
 }
 
 .astronaut {
-    border: 1px solid black;
+    border: .5px solid black;
     display: flex;
     justify-content: space-between;
     width: 500px;
@@ -13,4 +13,30 @@
     padding: 5px;
     margin-bottom: 20px;
     border-radius: 6px;
+}
+
+.active {
+    color: green
+}
+
+.inactive {
+    color: red
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+}
+
+ul {
+    font-weight: 100;
+}
+
+h1 {
+    font-weight: 100;
+    margin-left: .5em;
+}
+
+h3 {
+    font-weight: 100;
+    margin-left: .5em;
 }
