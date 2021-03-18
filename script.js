@@ -5,7 +5,7 @@ window.addEventListener('load', (event) => {
         response.json().then(function(json) {
             const container = document.getElementById("container");
             json.sort((a, b) => {
-                return a.hoursInSpace - b.hoursInSpace;
+                return b.hoursInSpace - a.hoursInSpace;
             });
 
             for (i = 0; i < json.length; i++) {
