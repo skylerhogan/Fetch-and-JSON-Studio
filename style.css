@@ -1,5 +1,6 @@
 .avatar {
     border-radius: 50%;
+    border: .5em outset white;
     height: 100px;
     float: right;
 }
@@ -13,6 +14,8 @@
     padding: 5px;
     margin-bottom: 20px;
     border-radius: 6px;
+    background-color: whitesmoke;
+    opacity: 90%;
 }
 
 .active {
@@ -33,7 +36,8 @@ ul {
 
 h1 {
     font-weight: 100;
-    margin-left: .5em;
+    margin-left: 1.25em;
+    color: white;
 }
 
 h3 {

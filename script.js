@@ -34,7 +34,7 @@ window.addEventListener('load', (event) => {
                 </div>` }
             };
             const header = document.getElementById("header");
-            header.innerHTML = `Astronaut Count: ${json.length.toString()}`
+            header.innerHTML = `Astronauts Aboard Mission: ${json.length.toString()}`
         });
     });
 });
